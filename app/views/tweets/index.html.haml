@@ -1,0 +1,55 @@
+%body
+  %header
+    =link_to "hitorigoto", "/tweets/new"
+  .contents
+    - @tweets.each do |tweet|
+      .message.clearfix
+        .message_box
+          %p.text
+            = tweet.text
+
+-# !!!
+-# %html
+-#   %head
+-#     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+-#     %meta{:charset => "UTF-8"}/
+-#     %link{:href => "style.css", :rel => "stylesheet", :type => "text/css"}/
+-#     %title ねこったー
+-#   %body
+-# %header
+-#   %h1 memomemo
+-# .contents
+-#   - @tweets.each do |tweet|
+-#     .message.clearfix
+-#       %img{:src => "img/dora.jpg"}/
+-#       .message_box
+-#         %p.user_name
+-#           野良猫1号
+-#         %p
+-#         %p.text
+-#           = tweet.text
+  -# .message.clearfix
+  -#   %img{:src => "img/dora.jpg"}/
+  -#   .message_box
+  -#     %p.user_name
+  -#       たま
+  -#       / <span class="time">・8月13日</span>
+  -#     %p
+  -#     %p.text
+  -#       家宝は寝て待てにゃー。急がば回れにゃー。蓼食う虫も好き好きにゃー。一念岩をも通すにゃー。千石取れば万石羨むにゃー。
+  -#     %p
+  -# .message.clearfix
+  -#   %img{:src => "img/dora.jpg"}/
+  -#   .message_box
+  -# .message.clearfix
+  -#   %img{:src => "img/dora.jpg"}/
+  -#   .message_box
+  -# .message.clearfix
+  -#   %img{:src => "img/dora.jpg"}/
+  -#   .message_box
+  -# .message.clearfix
+  -#   %img{:src => "img/dora.jpg"}/
+  -#   .message_box
+  -# .message.clearfix
+  -#   %img{:src => "img/dora.jpg"}/
+  -#   .message_box

@@ -1,0 +1,8 @@
+%header
+  =link_to "hitorigoto", "/tweets"
+  .contents2
+    %h2 投稿する
+    = form_tag('/tweets', method: :post, class: "clearfix") do
+      %textarea{:cols => "30", :name => "text", :rows => "4"}
+      .button-box
+        %input.submit-button{:type => "submit"}/
