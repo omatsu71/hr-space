@@ -1,24 +1,8 @@
-# README
+# MEMOMEMO
+* ひとりごとを投稿する簡易なメモアプリケーション
+* VMCの復習として作成
+ 
+# DEMO
+[![Image from Gyazo](https://i.gyazo.com/9429afaf7f1f09819e714c854a5eadc9.gif)](https://gyazo.com/9429afaf7f1f09819e714c854a5eadc9)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[![Image from Gyazo](https://i.gyazo.com/2a7893975166a5f7d49ea418571ebebd.gif)](https://gyazo.com/2a7893975166a5f7d49ea418571ebebd) 
